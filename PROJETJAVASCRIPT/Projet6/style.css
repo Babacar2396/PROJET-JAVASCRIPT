@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+p{
+  padding: 2rem;
+  font-family: serif;
+}
+#countdown {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 22%;
+  margin-top: 10%;  
+}
+#countdown > div {
+  display: inline-block;
+  margin-right: 20px;
+}
+#countdown span {
+  display: block;
+  font-size: 3em;
+}
+#countdown .smalltext {
+  font-size: 0.5em;
+  margin-top: -10px;
+}
