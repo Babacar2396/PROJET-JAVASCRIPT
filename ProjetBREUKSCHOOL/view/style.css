@@ -1,0 +1,54 @@
+header{
+	background-color: blueviolet;
+}
+
+.navbar-nav{
+	margin-bottom: 2rem;
+}
+.nav-link{
+	margin-bottom: 1rem;
+	margin: 1rem;
+}
+.img-logo{
+	width: 100px;
+	margin-bottom: 2rem;
+	margin-right:9rem;
+}
+.btn.btn-outline-primary{
+	background-color: orange;
+	color: white;
+	height: 2.6rem;
+	width: 13rem;
+	border:1px solid orange;
+	font-weight: bold;
+	margin-left: 2rem;
+	margin-top: 1rem;
+}
+a.nav-link{
+	color: black;
+}
+.p-2{
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: white;
+    z-index: 999;
+}
+a:hover{
+	border-top: 3px solid green;
+	border-radius: 8px;
+	border-bottom: 3px solid orange;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+a.nav-link:hover{
+	color: green;
+}
+.min-h-screen{
+	margin-right: 4rem;
+}
